@@ -1,9 +1,30 @@
 aid: capstone-turbine
 name: Capstone Turbine
-description: Capstone Turbine is a company surfaced as a portfolio company of canaan-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Capstone Turbine Corporation, now operating as Capstone Green Energy (and its
+  operating entity Capstone Energy+), is a California-based manufacturer of
+  low-emission microturbine energy systems founded in 1988. The company designs
+  and builds oil-free, air-bearing microturbines ranging from 65 kW to
+  multi-megawatt configurations for on-site and on-demand power, combined heat
+  and power (CHP), and combined cooling, heat and power (CCHP). Its systems power
+  data centers, microgrids, ports, EV charging, oil and gas operations, critical
+  power, and renewable energy applications. Capstone was surfaced as a portfolio
+  company of Canaan Partners and added to the API Evangelist network. It is an
+  industrial energy manufacturer with no public developer API, SDK, or developer
+  portal; this profile captures company identity and public web properties only.
 url: https://raw.githubusercontent.com/api-evangelist/capstone-turbine/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://d1io3yog0oux5.cloudfront.net/_27287bfd6a3ba09cb58a2b5926dfbe2e/capstonegreenenergy/files/images/logo-white.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,12 +33,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Energy
+- Microturbines
+- Clean Energy
+- Power Generation
+- Microgrid
+- Combined Heat and Power
+- Manufacturing
 apis: []
+common:
+- type: DomainSecurity
+  url: security/capstone-turbine-domain-security.yml
+- type: Website
+  url: https://www.capstoneenergyplus.com/
+- type: Blog
+  url: https://www.capstoneenergyplus.com/news/blog
+- type: Support
+  url: https://www.capstoneenergyplus.com/about/contact
+- type: TermsOfService
+  url: https://www.capstoneenergyplus.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.capstoneenergyplus.com/site-info/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
